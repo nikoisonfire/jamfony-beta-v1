@@ -1,5 +1,11 @@
 # Jamfony MVP 
 
+_My bachelor thesis project. Working on a different v2 so I thought "Why the hell not. I'll release the source code"_
+
+_Obviously this is far from complete, but in my defense I had 3 months to build the prototype and write the 40 page thesis 😬._
+
+_If you have any questions, hit me up on twitter_
+
 This is the main repository for the frontend code of Jamfony.com. The code runs on a create-react-app boilerplate using React JS, several libraries and Firebase.
 
 ## Tools & Libraries
