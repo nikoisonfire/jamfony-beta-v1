@@ -1,0 +1,73 @@
+.headerLogo
+  background: $accent
+
+.headerHome
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  justify-content: space-between
+  height: 100px
+  padding: 10px
+  width: 100%
+  margin-bottom: 40px
+
+  .logo
+    height: 100px
+    margin-left: 10px
+
+.logBox
+  position: absolute
+  right: 5px
+  top: 20px
+
+.loginButton
+  padding: 8px 40px
+  margin-right: 20px
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)
+  background: darken($accent, 12%)
+  border-radius: 15px
+  color: white
+  outline: none
+  font-size: 20px
+  transition-duration: 0.3s
+
+  &:hover
+    background: darken($accent, 5%)
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12)
+
+  &:focus
+    outline: none
+
+.homeInfo
+  padding: 20px
+  background: url("../../images/homepagepic.jpg")
+  min-height: 400px
+  color: white
+
+  h2
+    padding: 30px 0
+
+  p
+    font-size: 25px
+    padding: 20px 0
+
+.homeFooter
+  text-align: center
+  font-size: small
+  width: 100%
+  padding: 40px 0 20px 0
+
+.signupbutton
+  img, svg
+    padding-right: 8px
+
+.passwordResetLink
+  text-align: right
+  text-decoration: underline
+
+  a
+    color: #666 !important
+    cursor: pointer
+
+    &:hover
+      color: #3b5998 !important

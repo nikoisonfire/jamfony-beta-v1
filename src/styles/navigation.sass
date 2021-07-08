@@ -1,0 +1,128 @@
+// Test MainNav in Accent
+.mainNav
+  background: $accent
+
+  .messageUnreadCount, .notificationUnreadCount
+    background-color: black
+    color: white
+    border-radius: 50%
+    text-align: center
+    vertical-align: middle
+    width: 15px
+    height: 15px
+    font-size: 11px
+    position: absolute
+    top: 0
+    right: 0
+
+
+  a
+    padding: 0 10px
+
+  .notificationDropdown
+    button
+      padding: 0 10px
+
+
+  svg
+    fill: white
+
+  .navbar-text
+    padding-top: 0
+    padding-bottom: 0
+
+  .profileDropdown
+    svg
+      fill: black
+
+    .dropdown-item
+      padding: 5px 10px
+
+    .dropdown-toggle
+      background: darken($accent, 4%)
+
+      &:hover, &:focus
+        background-color: lighten($accent, 4%)
+        text-decoration: none
+
+      &::after
+        border-top: 0.3em solid white
+
+    .profileDropdownName
+      color: white
+      font-size: 15px
+
+.header
+  box-shadow: 0 4px 2px -2px #ddd
+
+
+.subNav
+  a
+    padding: 8px 0
+
+    svg
+      margin-right: 5px
+
+.popover
+  max-width: 400px !important
+
+  .noNotification
+    width: 375px
+    padding: 10px
+    vertical-align: middle
+    text-align: center
+    color: #555555
+
+  .notification
+    position: relative
+    width: 375px
+    border-bottom: 1px solid #dddddd
+
+    &.active
+      background-color: lightblue
+
+    a
+      color: #111111
+
+      &:hover
+        text-decoration: none
+    padding: 10px 5px
+
+    img
+      margin-right: 10px
+      margin-bottom: 15px
+      float: left
+      width: 32px
+      height: 32px
+
+    span
+      display: block
+      margin-left: 20px
+
+    .name
+      font-weight: 600
+      font-size: 15px
+      padding-bottom: 5px
+      color: darken($accent, 20%)
+
+    .action
+      font-size: 13px
+      color: #444444
+
+      svg
+        width: 14px
+        height: 14px
+        fill: #333333
+
+    .actionButton
+      position: absolute
+      right: 0
+      top: 15px
+
+      button
+        margin-left: 5px
+
+    .timeSince
+      color: #666666
+      font-size: 11px
+      padding-right: 5px
